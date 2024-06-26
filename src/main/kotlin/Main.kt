@@ -1,6 +1,7 @@
 package org.example
 
 fun main() {
-    println("Hello World!")
-    println(13)
+    println("Enter your City....")
+    val city = readLine()
+    println("User lives in $city")
 }
